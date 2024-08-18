@@ -40,7 +40,7 @@ LABEL \
 RUN cp /opt/ol/wlp/templates/servers/springBoot3/server.xml /config/server.xml
 # end::serverXml[]
 
-RUN features.sh
+# RUN features.sh
 
 # tag::libcache[]
 COPY --chown=1001:0 --from=staging /staging/lib.index.cache /lib.index.cache
