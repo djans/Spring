@@ -17,7 +17,7 @@ RUN springBootUtility thin \
 
 # Build the image
 # tag::OLimage2[]
-FROM icr.io/appcafe/open-liberty:kernel-slim-java17-openj9-ubi
+FROM icr.io/appcafe/open-liberty:full-java17-openj9-ubi
 # end::OLimage2[]
 
 ARG VERSION=1.0
