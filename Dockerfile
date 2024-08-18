@@ -40,11 +40,6 @@ LABEL \
 RUN cp /opt/ol/wlp/templates/servers/springBoot3/server.xml /config/server.xml
 # end::serverXml[]
 
-# tag::featureUtility.properties[]
-RUN cp /opt/ol/wlp/templates/servers/springBoot3/featureUtility.properties /config/featureUtility.properties
-RUN cp /opt/ol/wlp/templates/servers/springBoot3/featureUtility.properties /etc/featureUtility.properties
-# end::featureUtility.properties[]
-
 RUN features.sh
 
 # tag::libcache[]
