@@ -1,6 +1,6 @@
 # Stage and thin the application 
 # tag::OLimage1[]
-FROM icr.io/appcafe/open-liberty:full-java17-openj9-ubi as staging
+FROM icr.io/appcafe/open-liberty:full-java17-openj9-ubi
 # end::OLimage1[]
 
 # tag::copyJar[]
